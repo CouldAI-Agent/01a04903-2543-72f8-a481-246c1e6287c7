@@ -78,32 +78,7 @@ class _CoverPage extends StatelessWidget {
           style: TextStyle(fontSize: 16, fontStyle: FontStyle.italic),
         ),
         const SizedBox(height: 32),
-        // Placeholder untuk logo "sekolah ikhlas beramal" (Logo Kementerian Agama / Madrasah)
-        Container(
-          width: 120,
-          height: 120,
-          decoration: BoxDecoration(
-            color: Colors.green.shade100,
-            shape: BoxShape.circle,
-          ),
-          child: const Center(
-            child: Column(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                Icon(Icons.school, size: 48, color: Colors.green),
-                SizedBox(height: 4),
-                Text(
-                  'Ikhlas Beramal',
-                  style: TextStyle(
-                    fontSize: 12,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.green,
-                  ),
-                ),
-              ],
-            ),
-          ),
-        ),
+
         const SizedBox(height: 48),
         const Text(
           'DiSUSUN OLEH:',
